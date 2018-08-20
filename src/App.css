@@ -1,0 +1,30 @@
+/* .completed-todo {
+  text-decoration: line-through
+}
+.uncompleted-todo { 
+  text-decoration: none
+} */
+body, html, .container-fluid {
+  height : 100%
+}
+.container-fluid {
+  padding-left : 0 !important;
+  padding-right: 0 !important;
+}
+.add-todo-field .list-group-item {
+  font-size : 20px;
+}
+.jumbotron {
+  height : 100vh;
+}
+.todo-input { 
+  margin-right : 5px;
+  transform: scale(1.2);
+}
+.btn-outline-danger {
+  float : right;
+}
+.btn-group {
+  margin  : 20px;
+  float : right;
+}
