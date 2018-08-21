@@ -28,13 +28,13 @@ class AddToDoField extends React.Component {
     }
     render() {
         return <div className="add-todo-field">
-            <div class="input-group mb-3">
+             <div className="input-group mb-3">
                 <input type="text" className="form-control"
-                    placeholder="Recipient's username"
+                    placeholder="Add the task..."
                     aria-describedby="addTodo"
                     ref={input => this.inputField = input} />
                 <div className="input-group-append">
-                    <button class="btn btn-outline-secondary"
+                    <button className="btn btn-outline-secondary"
                         type="button" id="addTodo"
                         onClick={this.addToDo}>
                         Button
@@ -65,7 +65,7 @@ class AddToDoField extends React.Component {
                     })}
                 </ul>
             </div>
-        </div>
+        </div >
     }
 }
 
